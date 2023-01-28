@@ -1,0 +1,3 @@
+To Convert '1' to 1
+char c = '1'
+use int x = c - '1'

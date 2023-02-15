@@ -1,0 +1,14 @@
+void Solution(){
+	
+	vector<int> v = {1, 2, 3, 4, 5, 7};
+	
+	vector<int> v2(v.size(), -1);
+	
+	std::copy(v.begin(), v.end(), v2.begin());
+	pvec(v2);
+}
+
+
+
+Output:
+[1 2 3 4 5 7]

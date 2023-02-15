@@ -1,0 +1,4 @@
+we can Reverse Iterate a set, map, etc iN THis WAY
+
+for(auto it = s.rbegin(); it != s.rend(); it++) {
+}
